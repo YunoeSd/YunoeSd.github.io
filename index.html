@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="estilo.css">
+    <title>LP Desarrollador Web</title>
+</head>
+
+<body>
+    <!-- SECCION I N I C I O -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
+                            <li><a href="#servicios" onclick="seleccionar(this)">SERVICIOS</a></li>
+                            <li><a href="#portfolio" onclick="seleccionar(this)">PORTFOLIO</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
+                        </ul>
+                    </nav>
+
+                    <!-- Icono del menu responsive -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenidos</p>
+                <h2>Soy <span>Yunoe Sierra</span>, Ingeniero de Software</h2>
+                <a href="#portfolio">Ir a Portafolio</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION S O B R E M I -->
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="img/foto.jpg" alt="">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre Mi</p>
+            <h2>Hola, Soy <span>Yunoe Sierra Díaz</span> </h2>
+            <h3>Ingeniero de Software</h3>
+            <p>Como estudiante del Tecnológico de Monterrey, he adquirido conocimientos y habilidades en el campo del desarrollo web y móvil, especialmente en el área de UI/UX y Front-end. Estas experiencias me han permitido desarrollar una sólida base de conocimiento y competencias para cumplir con los objetivos que se me planteen.</p>
+            <p>Además de mi formación en ingeniería, me considero una persona altamente comprometida con mi trabajo. Valorando la importancia del trabajo en equipo, demuestro habilidades colaborativas, responsabilidad y dedicación en cada proyecto en el que participo. Adicionalmente a mis habilidades técnicas, poseo una actitud proactiva y entusiasta que me impulsa a superar desafíos y alcanzar resultados de calidad.</p>
+            <a href="docs/Yunoe_Sierra_CV_English.pdf.zip" download="Yunoe_Sierra_CV_English.pdf.zip">Descargar CV</a>
+
+        </div>
+    </section>
+
+    <!-- SECCION S E R V I C I O S -->
+    <section id="servicios">
+        <h3 class="titulo-seccion">MIS SERVICIOS</h3>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"> <i class="fa-solid fa-code"></i></span>
+                <h4>Desarrollo de Applicaciones Móviles</h4>
+                <hr>
+                <p>Tengo experiencia en varias plataformas móviles como Android e iOS, utilizando lenguajes de programación como Java, Kotlin, Swift y React Native. He trabajado con herramientas y frameworks específicos para el desarrollo móvil, como Android Studio y Xcode. Además, he desarrollado aplicaciones móviles de principio a fin, desde el diseño hasta la implementación y la publicación en tiendas de aplicaciones.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-palette"></i></span>
+                <h4>UI/UX</h4>
+                <hr>
+                <p>Tengo habilidades en el diseño de interfaces de usuario atractivas y funcionales. Además, cuento con experiencia en la creación de wireframes, prototipos interactivos y mockups. Soy capaz de comprender las necesidades y expectativas de los usuarios y traducirlas en interfaces intuitivas y fáciles de usar.  Poseo conocimientos en los principios de diseño UI/UX, como el diseño centrado en el usuario, la accesibilidad y la usabilidad.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-arrow-trend-up"></i></span>
+                <h4>Desarrollo web</h4>
+                <p>Destaco en mi capacidad para comprender las necesidades y expectativas de los usuarios y traducirlas en interfaces intuitivas y fáciles de usar, optimizando así su experiencia. Además, tengo habilidades en el diseño de interfaces de usuario atractivas y funcionales para sitios web, asegurando una experiencia agradable para los usuarios.</p>
+            </div>
+        </div>
+        <div class="fila">
+            
+        </div>
+    </section>
+
+    <!-- SECCION H A B I L I D A D E S -->
+    <div class="contenedor-skills" id="skills">
+        <h3>HABILIDADES </h3>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Python</p>
+                <span class="porcentaje">80%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="html"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Swift</p>
+                <span class="porcentaje">70%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="js"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Bases de Datos</p>
+                <span class="porcentaje">75%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="bd"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>HTML</p>
+                <span class="porcentaje">80%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="ps"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>JavaScript</p>
+                <span class="porcentaje">70%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="ja"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Clojure</p>
+                <span class="porcentaje">80%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="cl"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>C++</p>
+                <span class="porcentaje">70%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="cpp"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>C#</p>
+                <span class="porcentaje">80%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="cs"></div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- SECCION PORTAFOLIO -->
+    <section id="portfolio">
+        <h3 class="titulo-seccion">Mis Proyectos</h3>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto1.png" alt="">
+                <div class="info">
+                    <h4>Drumland</h4>
+                    <p>Desarrollo de un videojuego.</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto2.png" alt="">
+                <div class="info">
+                    <h4>Alerta para ti</h4>
+                    <p>Desarrollo de una aplicación movil en andrioid.</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto3.png" alt="">
+                <div class="info">
+                    <h4>Wheel Wise</h4>
+                    <p>Desarrllo de un sitio web para venta de coches.</p>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto4.png" alt="">
+                <div class="info">
+                    <h4>Redes</h4>
+                    <p>Diseño y levantamineto de una red.</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto5.png" alt="">
+                <div class="info">
+                    <h4>Mayfra México</h4>
+                    <p>Diseño de página web</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto6.png" alt="">
+                <div class="info">
+                    <h4>Modelación multiagentes</h4>
+                    <p>Diseño y desarrollo de multiagentes en 3D</p>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+    <!-- SECCTION C O N T A C T O -->
+    <section id="contacto">
+        <h3 class="titulo-seccion">Contactanos ahora</h3>
+        <div class="contenedor-form">
+            <form action="">
+                <div class="fila mitad">
+                    <input type="text" placeholder="Nombre Completo *" class="input-mitad">
+                    <input type="email" placeholder="Dirección de Email" class="input-mitad">
+                </div>
+                <div class="fila">
+                    <input type="text" placeholder="Tema..." class="input-full">
+                </div>
+                <div class="fila">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Tu Mensaje..." class="input-full"></textarea>
+                </div>
+
+                <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+            </form>
+        </div>
+    </section>
+
+    <!-- SECCION FOOTER -->
+    <footer>
+        <p>Todos los derechos reservados - 2022</p>
+    </footer>
+</body>
+
+</html>
